@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Proximaregular';
+  src: url("../fonts/Nova/proximanova_regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'Proximalight';
+  src: url("../fonts/Nova/proximanova_light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'Proximabold';
+  src: url("../fonts/Nova/proximanova_bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'ElMessiri';
+  src: url("../fonts/ElMessiri/ElMessiri-SemiBold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -343,6 +375,8 @@ template {
 }
 
 html {
+  font-family: 'Proximaregular';
+  font-size: 14px;
   color: #fff;
   background-color: #0e262f;
 }
@@ -381,7 +415,16 @@ a {
   background: url("../img/logo.png") no-repeat center;
 }
 
-.header-menu__nav__item {
-  text-decoration: none;
+.header-menu__logo-img {
+  margin-left: 13px;
+  margin-top: 13px;
+}
+
+.nav__item {
+  margin-right: 50px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
