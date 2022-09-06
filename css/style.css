@@ -386,7 +386,7 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 81.125rem;
+  max-width: 1298px;
   width: 100%;
   margin: auto;
 }
@@ -394,6 +394,18 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  font-family: "Proximalight";
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+  border: 0;
+  background: #018ABE;
+  padding: 9px 15px 9px 15px;
+  cursor: pointer;
 }
 
 .header {
@@ -420,11 +432,44 @@ a {
   margin-top: 13px;
 }
 
+.header-menu__button {
+  margin-bottom: 3px;
+}
+
 .nav__item {
   margin-right: 50px;
 }
 
 .nav__item:last-child {
   margin-right: 0;
+}
+
+.hero {
+  margin-top: 53px;
+}
+
+.hero-promo {
+  font-family: 'ElMessiri';
+  background: linear-gradient(0deg, rgba(152, 201, 220, 0.5), rgba(152, 201, 220, 0.5)), url(../img/hero.png);
+  width: 1296px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 64px;
+  width: 587px;
+  text-align: center;
+  line-height: 140%;
+  margin-bottom: 90px;
+}
+
+.hero-sub {
+  font-size: 24px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
