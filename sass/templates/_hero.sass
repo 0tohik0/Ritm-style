@@ -1,24 +1,49 @@
 .hero
-    margin-top: 53px
+    padding-bottom: 150px
+    margin-top: 3.7857rem
     &-promo
         font-family: 'ElMessiri'
         background: linear-gradient(0deg, rgba(152, 201, 220, 0.5), rgba(152, 201, 220, 0.5)), url(../img/hero.png)
-        width: 1296px
-        height: 600px
-        border-radius: 10px
+        width: 92.5714rem
+        height: 42.8571rem
+        border-radius: 0.7143rem
         display: flex
         flex-direction: column
         justify-content: center
         align-items: center
-    &-title
-        font-size: 64px
-        width: 587px
-        text-align: center
-        line-height: 140%
-        margin-bottom: 90px
-    &-sub
-        font-size: 24px
-        margin-bottom: 30px
+        &__text
+            font-size: 4.5714rem
+            width: 41.9286rem
+            text-align: center
+            line-height: 140%
+            margin-bottom: 6.4286rem
+        &__sub
+            font-family: 'ElMessiri'
+            position: relative
+            font-size: 1.7143rem
+            margin-bottom: 2.1429rem
+            &::before
+                content: ''
+                position: absolute
+                width: 2rem
+                height: 1rem
+                left: -6.0714rem
+                top: 0.5rem
+                background: url('../img/list-l.png') no-repeat center
+            &::after
+                content: ''
+                position: absolute
+                width: 2rem
+                height: 1rem
+                right: -6.0714rem
+                top: 0.5rem
+                background: url('../img/list-r.png') no-repeat center
+                        
+            
+                
+
+            
+        
             
             
         

@@ -9,20 +9,49 @@ html
 h1,h2,h3
     margin: 0
 .container
-    max-width: 1298px
+    max-width: 92.7143rem
     width: 100%
     margin: auto
 a
     color: $white
     text-decoration: none
     cursor: pointer
+    &:hover
+        color: $turq
+.title
+    position: relative
+    font-family: 'ElMessiri'
+    font-size: 42px
+    max-width: 480px
+    margin: auto
+    padding-bottom: 100px
+    display: flex
+    align-items: center
+    align-content: center
+    justify-content: center 
+    &::before
+        content: ''
+        position: absolute
+        width: 2rem
+        top: 21px
+        height: 1rem
+        left: 0
+        background: url('../img/list-blue-l.png') no-repeat center
+    &::after
+        content: ''
+        position: absolute
+        width: 2rem
+        top: 21px
+        height: 1rem
+        right: 0
+        background: url('../img/list-blue-r.png') no-repeat center
 .button
     font-family: "Proximalight" 
     color: $white
-    font-size: 13px
-    border-radius: 3px
+    font-size: 0.9286rem
+    border-radius: 0.2143rem
     border: 0
     background: $blue
-    padding: 9px 15px 9px 15px
+    padding: 0.6429rem 1.0714rem 0.6429rem 1.0714rem
     cursor: pointer
 
