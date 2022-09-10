@@ -1,5 +1,53 @@
 .sessions
-    padding-bottom: 50px
+    padding-bottom: 3.5714rem
 .cards
+    position: relative
     display: flex
-    height: 540px
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+.card
+    position: relative
+    font-size: 1.7143rem
+    &-img
+        width: 29.7143rem
+        height: 18.4286rem
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../img/woman2.jpg) no-repeat
+        border-radius: 10px
+    &-first
+        width: 29.7143rem
+        height: 38.5714rem
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../img/woman.jpg) no-repeat
+        border-radius: 10px
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            height: 0.7143rem
+            width: 29.7143rem
+            bottom: 0
+            background: $blue
+            border-radius: 0 0 0.7143rem 0.7143rem
+    &-mb
+        margin-bottom: 1.7857rem
+    &-text
+        position: absolute
+        margin-left: 3.5714rem
+        &__1
+            bottom: 4.2857rem
+        &__2
+            top: 13.5714rem
+        &__4
+            width: 24rem
+            top: 11.4286rem
+        &__3
+            bottom: 2.8571rem
+        &__5
+            width: 24rem
+            bottom: 2.8571rem
+        
+
+
+        
+        
+        
