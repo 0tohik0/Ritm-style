@@ -627,10 +627,10 @@ a:hover {
 }
 
 .aboutUs {
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 .aboutUs-container {
-  max-width: 1200px;
+  max-width: 85.7143rem;
 }
 .aboutUs-block__block {
   display: flex;
@@ -639,15 +639,15 @@ a:hover {
   align-content: center;
 }
 .aboutUs-title {
-  max-width: 390px;
+  max-width: 27.8571rem;
 }
 .aboutUs-desc {
   text-align: justify;
 }
 
 .block-text {
-  width: 400px;
-  margin-right: 60px;
+  width: 28.5714rem;
+  margin-right: 4.2857rem;
 }
 .block-text__2 {
   margin-right: 0;
@@ -657,5 +657,119 @@ a:hover {
 }
 
 .block2 {
-  margin-top: 100px;
+  margin-top: 7.1429rem;
+}
+
+.aboutUs {
+  padding-bottom: 80px;
+}
+.aboutUs-container {
+  max-width: 85.7143rem;
+}
+.aboutUs-block__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.aboutUs-title {
+  max-width: 27.8571rem;
+}
+.aboutUs-desc {
+  text-align: justify;
+}
+
+.block-text {
+  width: 28.5714rem;
+  margin-right: 4.2857rem;
+}
+.block-text__2 {
+  margin-right: 0;
+}
+.block-img__about {
+  border-radius: 15px;
+}
+
+.block2 {
+  margin-top: 7.1429rem;
+}
+
+.aboutUs {
+  padding-bottom: 80px;
+}
+.aboutUs-container {
+  max-width: 85.7143rem;
+}
+.aboutUs-block__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.aboutUs-title {
+  max-width: 27.8571rem;
+}
+.aboutUs-desc {
+  text-align: justify;
+}
+
+.block-text {
+  width: 28.5714rem;
+  margin-right: 4.2857rem;
+}
+.block-text__2 {
+  margin-right: 0;
+}
+.block-img__about {
+  border-radius: 15px;
+}
+
+.block2 {
+  margin-top: 7.1429rem;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 150px;
+}
+.price-title {
+  max-width: 510px;
+}
+.price-container {
+  width: 1076px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-block__list {
+  padding-bottom: 30px;
+  list-style-type: none;
+  background: url("../img/list.png") no-repeat 0 7px;
+  padding-left: 40px;
+}
+.price-block__img {
+  border-radius: 15px;
+}
+.price-block__capt {
+  display: flex;
+  justify-content: center;
+  font-family: "ElMessiri";
+  font-size: 21px;
+  margin-top: 25px;
+}
+
+.cost {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 30px;
+}
+.cost-text {
+  font-family: "ElMessiri";
+  background: none;
+}
+
+.pt {
+  padding-top: 80px;
 }/*# sourceMappingURL=style.css.map */
