@@ -403,6 +403,20 @@ a:hover {
   background: url("../img/list-blue-r.png") no-repeat center;
 }
 
+.mini-title {
+  font-family: "Proximabold";
+  font-size: 1.4286rem;
+  line-height: 140%;
+}
+
+.desc {
+  font-family: "Proximalight";
+  font-weight: 300;
+  line-height: 140%;
+  margin-top: 1.4286rem;
+  margin-bottom: 1.4286rem;
+}
+
 .button {
   font-family: "Proximalight";
   font-size: 0.9286rem;
@@ -578,15 +592,7 @@ a:hover {
   text-align: justify;
 }
 .reviews-container__title {
-  font-family: "Proximabold";
-  font-size: 1.4286rem;
-  line-height: 140%;
   margin-top: 3.5714rem;
-}
-.reviews-container__desc {
-  font-family: "Proximalight";
-  font-weight: 300;
-  line-height: 140%;
 }
 .reviews-blue {
   background: #018ABE;
@@ -612,9 +618,44 @@ a:hover {
 }
 .reviews-cubes__cube:hover {
   background: #fff;
+  transition-duration: 300ms;
 }
 
 .desc-1 {
   margin-top: 1.4286rem;
   margin-bottom: 1.4286rem;
+}
+
+.aboutUs {
+  padding-bottom: 150px;
+}
+.aboutUs-container {
+  max-width: 1200px;
+}
+.aboutUs-block__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.aboutUs-title {
+  max-width: 390px;
+}
+.aboutUs-desc {
+  text-align: justify;
+}
+
+.block-text {
+  width: 400px;
+  margin-right: 60px;
+}
+.block-text__2 {
+  margin-right: 0;
+}
+.block-img__about {
+  border-radius: 15px;
+}
+
+.block2 {
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */
