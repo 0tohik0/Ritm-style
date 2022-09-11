@@ -700,7 +700,7 @@ a:hover {
 }
 
 .map {
-  margin-bottom: 150px;
+  margin-bottom: 7.1429rem;
 }
 .map-container {
   justify-content: space-between;
@@ -710,76 +710,59 @@ a:hover {
 }
 .map-title {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
-  padding-top: 35px;
-  padding-left: 35px;
+  font-size: 1.7143rem;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
 }
 .map-button {
-  margin-top: 30px;
-  margin-left: 35px;
+  margin-top: 2.1429rem;
+  margin-left: 2.5rem;
 }
 .map-button:hover {
   color: #fff;
   background: #018ABE;
+  transition-duration: 300ms;
   border: 1px solid #fff;
 }
 .map-address__info {
-  width: 392px;
-  height: 290px;
+  width: 28rem;
+  height: 20.7143rem;
   background: #018ABE;
   border-radius: 10px;
 }
 .map__text {
-  padding-top: 23px;
-  padding-left: 75px;
+  padding-top: 1.6429rem;
+  padding-left: 5.3571rem;
 }
 
 .address-1 {
-  margin-bottom: 30px;
+  margin-bottom: 2.1429rem;
 }
 
 .marker {
-  background: url(../img/marker.png) no-repeat 35px 18px;
+  background: url(../img/marker.png) no-repeat 2.5rem 1.2857rem;
 }
 
 .metro {
-  background: url(../img/metro.png) no-repeat 33px 18px;
+  background: url(../img/metro.png) no-repeat 2.3571rem 1.2857rem;
 }
 
 .record {
-  background: url(../img/record.png) no-repeat 34px 18px;
+  background: url(../img/record.png) no-repeat 2.4286rem 1.2857rem;
 }
 
-.aboutUs {
-  padding-bottom: 5.7143rem;
+.footer {
+  margin-bottom: 2.1429rem;
 }
-.aboutUs-container {
-  max-width: 85.7143rem;
-}
-.aboutUs-block__block {
+.footer-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  align-content: center;
 }
-.aboutUs-title {
-  max-width: 27.8571rem;
-}
-.aboutUs-desc {
-  text-align: justify;
+.footer-content {
+  font-weight: 400;
 }
 
-.block-text {
-  width: 28.5714rem;
-  margin-right: 4.2857rem;
-}
-.block-text__2 {
-  margin-right: 0;
-}
-.block-img__about {
-  border-radius: 15px;
-}
-
-.block2 {
-  margin-top: 7.1429rem;
+.content-1 {
+  font-weight: 700;
+  line-height: 135%;
 }/*# sourceMappingURL=style.css.map */
