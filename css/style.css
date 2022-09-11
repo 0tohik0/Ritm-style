@@ -19,13 +19,6 @@
   font-style: normal;
   font-display: wrap;
 }
-@font-face {
-  font-family: "ElMessiri";
-  src: url("../fonts/ElMessiri/ElMessiri-SemiBold.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: wrap;
-}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -374,7 +367,7 @@ a:hover {
 
 .title {
   position: relative;
-  font-family: "ElMessiri";
+  font-family: "El Messiri", sans-serif;
   font-size: 3rem;
   max-width: 34.2857rem;
   margin: auto;
@@ -475,7 +468,7 @@ a:hover {
   margin-top: 3.7857rem;
 }
 .hero-promo {
-  font-family: "ElMessiri";
+  font-family: "El Messiri", sans-serif;
   background: linear-gradient(0deg, rgba(152, 201, 220, 0.5), rgba(152, 201, 220, 0.5)), url(../img/hero.png);
   width: 92.5714rem;
   height: 42.8571rem;
@@ -493,7 +486,7 @@ a:hover {
   margin-bottom: 6.4286rem;
 }
 .hero-promo__sub {
-  font-family: "ElMessiri";
+  font-family: "El Messiri", sans-serif;
   position: relative;
   font-size: 1.7143rem;
   margin-bottom: 2.1429rem;
@@ -627,75 +620,7 @@ a:hover {
 }
 
 .aboutUs {
-  padding-bottom: 80px;
-}
-.aboutUs-container {
-  max-width: 85.7143rem;
-}
-.aboutUs-block__block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-}
-.aboutUs-title {
-  max-width: 27.8571rem;
-}
-.aboutUs-desc {
-  text-align: justify;
-}
-
-.block-text {
-  width: 28.5714rem;
-  margin-right: 4.2857rem;
-}
-.block-text__2 {
-  margin-right: 0;
-}
-.block-img__about {
-  border-radius: 15px;
-}
-
-.block2 {
-  margin-top: 7.1429rem;
-}
-
-.aboutUs {
-  padding-bottom: 80px;
-}
-.aboutUs-container {
-  max-width: 85.7143rem;
-}
-.aboutUs-block__block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-}
-.aboutUs-title {
-  max-width: 27.8571rem;
-}
-.aboutUs-desc {
-  text-align: justify;
-}
-
-.block-text {
-  width: 28.5714rem;
-  margin-right: 4.2857rem;
-}
-.block-text__2 {
-  margin-right: 0;
-}
-.block-img__about {
-  border-radius: 15px;
-}
-
-.block2 {
-  margin-top: 7.1429rem;
-}
-
-.aboutUs {
-  padding-bottom: 80px;
+  padding-bottom: 5.7143rem;
 }
 .aboutUs-container {
   max-width: 85.7143rem;
@@ -754,7 +679,7 @@ a:hover {
 .price-block__capt {
   display: flex;
   justify-content: center;
-  font-family: "ElMessiri";
+  font-family: "El Messiri", sans-serif;
   font-size: 21px;
   margin-top: 25px;
 }
@@ -766,10 +691,95 @@ a:hover {
   padding-right: 30px;
 }
 .cost-text {
-  font-family: "ElMessiri";
+  font-family: "El Messiri", sans-serif;
   background: none;
 }
 
 .pt {
   padding-top: 80px;
+}
+
+.map {
+  margin-bottom: 150px;
+}
+.map-container {
+  justify-content: space-between;
+}
+.map-box__card {
+  border-radius: 10px;
+}
+.map-title {
+  font-family: "El Messiri", sans-serif;
+  font-size: 24px;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+.map-button {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.map-button:hover {
+  color: #fff;
+  background: #018ABE;
+  border: 1px solid #fff;
+}
+.map-address__info {
+  width: 392px;
+  height: 290px;
+  background: #018ABE;
+  border-radius: 10px;
+}
+.map__text {
+  padding-top: 23px;
+  padding-left: 75px;
+}
+
+.address-1 {
+  margin-bottom: 30px;
+}
+
+.marker {
+  background: url(../img/marker.png) no-repeat 35px 18px;
+}
+
+.metro {
+  background: url(../img/metro.png) no-repeat 33px 18px;
+}
+
+.record {
+  background: url(../img/record.png) no-repeat 34px 18px;
+}
+
+.aboutUs {
+  padding-bottom: 5.7143rem;
+}
+.aboutUs-container {
+  max-width: 85.7143rem;
+}
+.aboutUs-block__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.aboutUs-title {
+  max-width: 27.8571rem;
+}
+.aboutUs-desc {
+  text-align: justify;
+}
+
+.block-text {
+  width: 28.5714rem;
+  margin-right: 4.2857rem;
+}
+.block-text__2 {
+  margin-right: 0;
+}
+.block-img__about {
+  border-radius: 15px;
+}
+
+.block2 {
+  margin-top: 7.1429rem;
 }/*# sourceMappingURL=style.css.map */
