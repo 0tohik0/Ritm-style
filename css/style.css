@@ -351,28 +351,34 @@ h1, h2, h3 {
   margin: 0;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+a:hover {
+  color: #018ABE;
+}
+
 .container {
   max-width: 92.7143rem;
   width: 100%;
   margin: auto;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-a:hover {
-  color: #018ABE;
+.block {
+  display: flex;
+  justify-content: center;
 }
 
 .title {
   position: relative;
   font-family: "ElMessiri";
-  font-size: 42px;
-  max-width: 480px;
+  font-size: 3rem;
+  max-width: 34.2857rem;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 7.1429rem;
   display: flex;
   align-items: center;
   align-content: center;
@@ -382,7 +388,7 @@ a:hover {
   content: "";
   position: absolute;
   width: 2rem;
-  top: 21px;
+  top: 1.5rem;
   height: 1rem;
   left: 0;
   background: url("../img/list-blue-l.png") no-repeat center;
@@ -391,7 +397,7 @@ a:hover {
   content: "";
   position: absolute;
   width: 2rem;
-  top: 21px;
+  top: 1.5rem;
   height: 1rem;
   right: 0;
   background: url("../img/list-blue-r.png") no-repeat center;
@@ -399,13 +405,19 @@ a:hover {
 
 .button {
   font-family: "Proximalight";
-  color: #fff;
   font-size: 0.9286rem;
   border-radius: 0.2143rem;
   border: 0;
-  background: #018ABE;
   padding: 0.6429rem 1.0714rem 0.6429rem 1.0714rem;
   cursor: pointer;
+}
+.button--primary {
+  color: #fff;
+  background: #018ABE;
+}
+.button--secondary {
+  color: #018ABE;
+  background: #fff;
 }
 
 .header {
@@ -431,6 +443,11 @@ a:hover {
 .header-menu__button {
   margin-bottom: 0.2143rem;
 }
+.header-menu__button:hover {
+  color: #018ABE;
+  background: #fff;
+  transition-duration: 400ms;
+}
 
 .nav__item {
   margin-right: 3.5714rem;
@@ -440,7 +457,7 @@ a:hover {
 }
 
 .hero {
-  padding-bottom: 150px;
+  padding-bottom: 10.7143rem;
   margin-top: 3.7857rem;
 }
 .hero-promo {
@@ -487,7 +504,7 @@ a:hover {
 }
 
 .sessions {
-  padding-bottom: 3.5714rem;
+  padding-bottom: 10.7143rem;
 }
 
 .cards {
@@ -547,4 +564,57 @@ a:hover {
 .card-text__5 {
   width: 24rem;
   bottom: 2.8571rem;
+}
+
+.reviews {
+  margin-bottom: 10.7143rem;
+}
+.reviews-title {
+  max-width: 21.4286rem;
+}
+.reviews-container {
+  max-width: 36.8571rem;
+  margin: auto;
+  text-align: justify;
+}
+.reviews-container__title {
+  font-family: "Proximabold";
+  font-size: 1.4286rem;
+  line-height: 140%;
+  margin-top: 3.5714rem;
+}
+.reviews-container__desc {
+  font-family: "Proximalight";
+  font-weight: 300;
+  line-height: 140%;
+}
+.reviews-blue {
+  background: #018ABE;
+  width: 45.4286rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+.reviews-cubes {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.2857rem;
+}
+.reviews-cubes__cube {
+  background: #737e83;
+  width: 1.1429rem;
+  height: 1.1429rem;
+  border-radius: 3px;
+  margin-right: 1.4286rem;
+  cursor: pointer;
+}
+.reviews-cubes__cube:last-of-type {
+  margin-right: 0;
+}
+.reviews-cubes__cube:hover {
+  background: #fff;
+}
+
+.desc-1 {
+  margin-top: 1.4286rem;
+  margin-bottom: 1.4286rem;
 }/*# sourceMappingURL=style.css.map */
